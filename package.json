@@ -1,14 +1,27 @@
 {
   "name": "health-guardian",
-  "displayName": "Health Guardian",
-  "description": "提醒喝水和站立活动的健康助手",
+  "displayName": "Health Guardian 健康守护者",
+  "description": "A VS Code extension that reminds developers to drink water and take breaks for better health. 一个提醒开发者按时喝水、起身活动的健康助手插件。",
   "version": "0.1.0",
   "publisher": "poyhub",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Snippets",
+    "Education"
+  ],
+  "keywords": [
+    "health",
+    "reminder",
+    "water",
+    "stand",
+    "break",
+    "wellness",
+    "健康",
+    "提醒",
+    "喝水"
   ],
   "activationEvents": [
     "onStartupFinished"
@@ -79,7 +92,7 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.85.0",
+    "@types/vscode": "^1.70.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
@@ -90,5 +103,23 @@
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
     "@vscode/test-electron": "^2.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Poyhub/health-guardian.git"
+  },
+  "icon": "images/logo.png",
+  "license": "MIT",
+  "author": {
+    "name": "Poyhub",
+    "url": "https://github.com/Poyhub"
+  },
+  "bugs": {
+    "url": "https://github.com/Poyhub/health-guardian/issues"
+  },
+  "homepage": "https://github.com/Poyhub/health-guardian#readme",
+  "galleryBanner": {
+    "color": "#C2E7FF",
+    "theme": "light"
   }
 }
