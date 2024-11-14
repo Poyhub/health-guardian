@@ -37,6 +37,11 @@ This extension contributes the following settings:
 - VS Code 1.50.0 or above
 
 ### Release Notes
+#### 0.1.2
+- Further improved compatibility with VS Code and derived editors
+- Optimized for better support across different VS Code versions
+- Enhanced stability for Cursor and other VS Code-based editors
+
 #### 0.1.1
 - Improved compatibility with VS Code and derived editors
 - Lowered minimum VS Code version requirement to 1.50.0
@@ -86,17 +91,22 @@ This extension contributes the following settings:
 - VS Code 1.50.0 或更高版本
 
 ### 更新日志
+#### 0.1.2
+- 进一步改进与 VS Code 及衍生编辑器的兼容性
+- 优化对不同 VS Code 版本的支持
+- 增强对 Cursor 等基于 VS Code 的编辑器的稳定性
+
 #### 0.1.1
-- 改进与 VS Code 及衍生编辑器的兼容性
-- 降低最低 VS Code 版本要求至 1.50.0
-- 更好地支持 Cursor 等基于 VS Code 的编辑器
+- Improved compatibility with VS Code and derived editors
+- Lowered minimum VS Code version requirement to 1.50.0
+- Better support for Cursor and other VS Code-based editors
 
 #### 0.1.0
-- 首次发布
-- 喝水提醒功能
-- 站立提醒功能
-- 健康数据统计
-- 可自定义目标和间隔
+- Initial release
+- Water drinking reminder
+- Standing break reminder
+- Health statistics tracking
+- Customizable goals and intervals
 
 ---
 
