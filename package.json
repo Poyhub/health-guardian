@@ -1,0 +1,94 @@
+{
+  "name": "health-guardian",
+  "displayName": "Health Guardian",
+  "description": "提醒喝水和站立活动的健康助手",
+  "version": "0.1.0",
+  "publisher": "poyhub",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "health-guardian.drinkWater",
+        "title": "喝水"
+      },
+      {
+        "command": "health-guardian.stand",
+        "title": "站立"
+      },
+      {
+        "command": "health-guardian.showPanel",
+        "title": "显示健康助手面板"
+      },
+      {
+        "command": "health-guardian.toggleTimer",
+        "title": "暂停/继续计时"
+      },
+      {
+        "command": "health-guardian.showHistory",
+        "title": "显示健康记录"
+      },
+      {
+        "command": "health-guardian.showSettings",
+        "title": "打开健康助手设置"
+      }
+    ],
+    "configuration": {
+      "title": "Health Guardian",
+      "properties": {
+        "healthGuardian.reminderInterval": {
+          "type": "number",
+          "default": 30,
+          "description": "提醒间隔（分钟）"
+        },
+        "healthGuardian.dailyWaterGoal": {
+          "type": "number",
+          "default": 2000,
+          "description": "每日饮水目标（毫升）"
+        },
+        "healthGuardian.dailyStandGoal": {
+          "type": "number",
+          "default": 12,
+          "description": "每日站立目标次数"
+        },
+        "healthGuardian.waterPerDrink": {
+          "type": "number",
+          "default": 200,
+          "description": "每次饮水量（毫升）"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "@vscode/test-electron": "^2.3.8"
+  }
+}
