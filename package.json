@@ -2,7 +2,7 @@
   "name": "health-guardian",
   "displayName": "Health Guardian 健康守护者",
   "description": "A VS Code extension that reminds developers to drink water and take breaks for better health. 一个提醒开发者按时喝水、起身活动的健康助手插件。",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "poyhub",
   "engines": {
     "vscode": "^1.70.0"
