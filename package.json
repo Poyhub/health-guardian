@@ -5,7 +5,7 @@
   "version": "0.1.1",
   "publisher": "poyhub",
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.50.0"
   },
   "categories": [
     "Other",
@@ -92,7 +92,7 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.70.0",
+    "@types/vscode": "^1.50.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
     "@typescript-eslint/eslint-plugin": "^6.15.0",

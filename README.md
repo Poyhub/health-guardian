@@ -34,9 +34,14 @@ This extension contributes the following settings:
 * `Open Settings`: Configure health guardian
 
 ### Requirements
-- VS Code 1.85.0 or above
+- VS Code 1.50.0 or above
 
 ### Release Notes
+#### 0.1.1
+- Improved compatibility with VS Code and derived editors
+- Lowered minimum VS Code version requirement to 1.50.0
+- Better support for Cursor and other VS Code-based editors
+
 #### 0.1.0
 - Initial release
 - Water drinking reminder
@@ -78,9 +83,14 @@ This extension contributes the following settings:
 * `打开健康助手设置`: 配置健康守护者
 
 ### 系统要求
-- VS Code 1.85.0 或更高版本
+- VS Code 1.50.0 或更高版本
 
 ### 更新日志
+#### 0.1.1
+- 改进与 VS Code 及衍生编辑器的兼容性
+- 降低最低 VS Code 版本要求至 1.50.0
+- 更好地支持 Cursor 等基于 VS Code 的编辑器
+
 #### 0.1.0
 - 首次发布
 - 喝水提醒功能
